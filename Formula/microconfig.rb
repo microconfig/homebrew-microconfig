@@ -1,16 +1,16 @@
 class Microconfig < Formula
   desc "Modern way of microservice configuration management"
   homepage "https://microconfig.io/"
-  version "4.1.9"
+  version "4.3.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/microconfig/microconfig/releases/download/v4.1.9/microconfig-macos.zip"
-    sha256 "a4f2627170c2adb60ed464fa1ca407105fa95084b50314913e2a648dcb541e29"
+    url "https://github.com/microconfig/microconfig/releases/download/v4.3.5/microconfig-macos.zip"
+    sha256 "158f0a62d8240491e85e5cddc7ee0e3e44fa8027b122fa6eedec713950b2b6f3"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/microconfig/microconfig/releases/download/v4.1.9/microconfig-linux.zip"
-      sha256 "188991f203c15f0ff1a4f8a0cfc062d0b6d4578be7adb19828954f1a35833adb"
+      url "https://github.com/microconfig/microconfig/releases/download/v4.3.5/microconfig-linux.zip"
+      sha256 "2fdd5ac2aa0dd268d5d99e6138414870b915bfdb26523d126fafd2dd6638a01c"
     end
   end
 
