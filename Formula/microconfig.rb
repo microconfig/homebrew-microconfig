@@ -10,7 +10,7 @@ class Microconfig < Formula
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/microconfig/microconfig/releases/download/v4.4.0/microconfig-linux.zip"
-      sha256 "2fdd5ac2aa0dd268d5d99e6138414870b915bfdb26523d126fafd2dd6638a01c"
+      sha256 "43442e57dddf23412490e27a823429719786c1e97bfda26854de052ce1f06ef2"
     end
   end
 
