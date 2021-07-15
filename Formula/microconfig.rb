@@ -6,7 +6,7 @@ class Microconfig < Formula
 
   if OS.mac?
     url "https://github.com/microconfig/microconfig/releases/download/v4.4.0/microconfig-macos.zip"
-    sha256 "158f0a62d8240491e85e5cddc7ee0e3e44fa8027b122fa6eedec713950b2b6f3"
+    sha256 "8443dcce2f6b447f015dca30824ebd35531aed15db5dda13a9d3643dab87fc69"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/microconfig/microconfig/releases/download/v4.4.0/microconfig-linux.zip"
