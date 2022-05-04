@@ -2,7 +2,6 @@ class Microconfig < Formula
   desc "Modern way of microservice configuration management"
   homepage "https://microconfig.io/"
   version "4.5.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/microconfig/microconfig/releases/download/v4.5.0/microconfig-macos.zip"
